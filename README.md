@@ -12,12 +12,12 @@ brew tap joh90/tap
 
 | Formula | Description |
 |---------|-------------|
-| `slack-cli` | Slack CLI - interact with Slack as yourself |
+| `slackasme` | Slack CLI - interact with Slack as yourself |
 
-### slack-cli
+### slackasme
 
 ```bash
-brew install slack-cli
+brew install slackasme
 ```
 
-See [joh90/slack-cli](https://github.com/joh90/slack-cli) for usage.
+See [joh90/slackasme](https://github.com/joh90/slackasme) for usage.
