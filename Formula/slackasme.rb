@@ -1,13 +1,13 @@
 class Slackasme < Formula
   desc "Slack CLI - interact with Slack as yourself"
   homepage "https://github.com/joh90/slackasme"
-  version "0.2.0"
+  version "0.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/joh90/slackasme/releases/download/v#{version}/slackasme-darwin-arm64"
-      sha256 "d5a26e170142ae415a559437b5af9ff5a3077d652db9d9756f32044cbbd0bfc7"
+      sha256 "ddb4e1292d59144a51daaddd20c99018f05d85640b02ff0f00fbec8539fd22ff"
 
       def install
         bin.install "slackasme-darwin-arm64" => "slackasme"
@@ -16,7 +16,7 @@ class Slackasme < Formula
 
     on_intel do
       url "https://github.com/joh90/slackasme/releases/download/v#{version}/slackasme-darwin-amd64"
-      sha256 "438dd3a9ba1a0ca80898c4630c7c30eb9811e23cba6e3e32cadbe00d365c2718"
+      sha256 "c403c7a2d060ff5887301e9a677b26fbef2fef598ba2d606615fb901cd4270cd"
 
       def install
         bin.install "slackasme-darwin-amd64" => "slackasme"
@@ -27,7 +27,7 @@ class Slackasme < Formula
   on_linux do
     on_intel do
       url "https://github.com/joh90/slackasme/releases/download/v#{version}/slackasme-linux-amd64"
-      sha256 "4ca319fa84a2d4e5276288dad5ed418c38fde398d25ca636c9e12953ae0e834d"
+      sha256 "35592e59dff07b27edf3824f2b870cc4d377b4051e36b085910f6f43cf6054e4"
 
       def install
         bin.install "slackasme-linux-amd64" => "slackasme"
